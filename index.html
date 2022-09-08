@@ -350,6 +350,25 @@
                     <use href="./images/sprite.svg#icon-close"></use>
                 </svg>
             </button>
+            <form>
+                <b class="form-main-text">Залиште свої дані, ми вам передзвонимо</b>
+                <div class="form">
+                <label class="text-form" for="name">Ім'я</label>
+                <input class="modal-input" type="text" name="name" id="name" required minlength="2" pattern="[a-zA-Za-яА-ЯїЇіІ]+">
+
+                <label class="text-form" for="tel">Телефон</label>
+                <input class="modal-input" type="tel" name="tel" id="tel" required minlength="9" pattern="[0-9]+">
+
+                <label class="text-form" for="mail">Пошта</label>
+                <input class="modal-input" type="email" name="mail" id="mail" required>
+                
+                <label class="text-form" for="text">Коментар</label>
+                <textarea class="contact-form-message text-form" name="user-message" placeholder="Введіть текст"></textarea>
+                </div>
+                <input class="" type="checkbox">
+                <label for=""></label>
+                <button class="modal-button-data" type="submit">Відправити</button>
+            </form>
         </div>
     </div>
     <script src="./js/modal.js"></script>

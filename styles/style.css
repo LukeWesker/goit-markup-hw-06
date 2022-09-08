@@ -168,7 +168,7 @@ ul {list-style: none;}
     border-bottom: 1px solid #ECECEC;
 }
 /*--------------------------------------- Кнопки ---------------------------------------*/
-.modal-button {
+.modal-button, .modal-button-data {
     font-family: 'Roboto';
     font-weight: 700;
     font-size: 16px;
@@ -718,4 +718,55 @@ ul {list-style: none;}
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
+}
+.modal-input {
+    width: 448px;
+    height: 40px;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+}
+.modal-button-data {
+
+}
+.contact-form-message {
+    display: block;
+    justify-content: center;
+    width: 448px;
+    height: 120px;
+    margin-left: 40px;
+    margin-right: 40px;
+    resize: none;
+    margin: 0;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+}
+.form {
+    display: inline-block;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.text-form {
+font-family: Roboto;
+font-size: 12px;
+font-weight: 400;
+line-height: 14px;
+letter-spacing: 0.01em;
+text-align: left;
+color: rgba(117, 117, 117, 1);
+
+}
+.form-main-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    padding-bottom: 12px;
+    font-family: Roboto;
+font-size: 20px;
+font-weight: 700;
+line-height: 23px;
+letter-spacing: 0.03em;
+text-align: center;
+
 }
