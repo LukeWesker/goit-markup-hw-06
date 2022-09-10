@@ -853,34 +853,56 @@ color: rgba(117, 117, 117, 1);
 }
 
 .footer-input {
+    position: relative;
     width: 358px;
     height: 50px;
     border: 1px solid rgba(255, 255, 255, 0.3);
     border-radius: 4px;
-    padding-left: 42px;
+    padding-left: 16px;
     transition: 250ms var(--timing-animation);
     cursor: pointer;
     background-color: transparent;
+    color: var(--primary-white-color);
+}
+
+.footer-input:checked {
+    border: none;
 }
 .button-foot-submit {
+    position: relative;
     font-family: 'Roboto';
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
     display: inline-block;
-    min-width: 216px;
-    padding: 10px 32px;
-    align-items: center;
-    text-align: center;
+    width: 200px;
+    height: 50px;
+    padding-top: 10px;
+    padding-left: 28px;
+    padding-bottom: 10px;
+    padding-right: 62px;
+    margin-left: 12px;
+
     letter-spacing: 0.06em;
     color: var(--primary-white-color);
-    background-color: var(--acent-color);
+    background-color: rgba(33, 150, 243, 1);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     border: 1px solid transparent;
 }
-.footer-form {
-    /* display: block; */
+.button-foot-submit:hover,
+.button-foot-submit:focus {
+    background-color: var(--button-main-color);
+    transition: 250ms var(--timing-animation);
+}
+.telegram-icon {
+   position: absolute;
+   margin-left: 10px;
+}
+
+.footer-form-div {
+    margin-left: auto;
+    /* justify-content: space-between; */
 }
 .svg-modal {
     /* display: flex;
