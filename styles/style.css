@@ -760,6 +760,11 @@ ul {list-style: none;}
     border-radius: 4px;
     border: 1px solid transparent;
 }
+.modal-button-data:hover,
+.modal-button-data:focus {
+    background-color: var(--button-main-color);
+    transition: 250ms var(--timing-animation);
+}
 
 .contact-form-message {
     width: 100%;
