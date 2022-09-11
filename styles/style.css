@@ -728,13 +728,11 @@ ul {list-style: none;}
     transition: 250ms var(--timing-animation);
     cursor: pointer;
 }
-.modal-input:hover,
 .modal-input:focus {
     outline: none;
     border-color: var(--acent-color);
 }
-.modal-input:focus +.icon-position,
-.modal-input:hover +.icon-position {
+.modal-input:focus +.icon-position {
     fill: var(--acent-color);
 }
 .modal-form {
@@ -787,7 +785,6 @@ ul {list-style: none;}
     letter-spacing: 0.01em;
     text-align: left;
 }
-.contact-form-message:hover,
 .contact-form-message:focus {
     outline: none;
     border-color: var(--acent-color);
