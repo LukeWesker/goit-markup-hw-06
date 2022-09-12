@@ -690,6 +690,7 @@ ul {list-style: none;}
 }
 .modal {
     position: absolute;
+    padding: 40px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -801,8 +802,6 @@ ul {list-style: none;}
 }
 .form {
     display: inline-block;
-    padding-left: 40px;
-    padding-right: 40px;
 }
 
 .text-form {
@@ -822,7 +821,6 @@ margin-bottom: 4px;
 }
 .form-main-text {
 text-align: center;
-padding-top: 40px;
 margin-bottom: 2px;
 font-family: Roboto;
 font-size: 20px;
